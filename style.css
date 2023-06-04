@@ -1,0 +1,84 @@
+body{
+	background-color: #A6B1E1;
+	color: #321E1E;
+	font-family: 'Marcellus', serif ;
+}
+h1,h2 {
+	font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+	color: #393E46 ;
+	font-weight: 700;
+	letter-spacing: 10px;
+	font-size: 32px;
+	text-transform: uppercase;
+} 
+h2 {
+	color: #212A3E;
+	font-size: 27px;
+	font-weight: 300;
+}
+a {
+	text-decoration: none;
+	color: #394867;
+	font-weight: bolder;
+}
+a:hover {
+	color: #71C9CE;
+}
+
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin:40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: #394867;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: #71C9CE;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+/* Design adjustments using ID */
+
+#introduction p {
+	margin-bottom: 40px;
+}
